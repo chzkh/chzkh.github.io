@@ -62,6 +62,13 @@ header div:hover .drop_menu {
     display: block;
 }
 
+.m_d {
+    backdrop-filter: blure(15px);
+    background: linear-gradient(to bottom, rgb(45, 45, 45), rgb(99, 101, 109)); 
+    background-color: black;
+    height: 65px; width: 100%;
+}
+
 .drop_menu, .drop_menu ul, .drop_menu li, .drop_menu a {
     box-sizing: border-box;
 }
