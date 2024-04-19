@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            Menu
+            <div class="drop_menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1>Speed typo</h1>
+    </header>
+    <main>
+        <section class="input_wrapper">
+            <div class="input_window">
+                <div class="input_text"></div>
+            </div>
+            <div class="stats">
+                <span class="stats_text">Great job! Keep practicing to improve your speed and accuracy.</span>
+                <div class="st">
+                    <span class="time">Time: 
+                        <span class="time_text"></span>
+                    </span>
+                    <span class="spm">Speed:
+                        <span class="spm_text"></span>
+                    </span>
+                    <span class="accuracy">Accuracy:
+                        <span class="accuracy_text"></span>    
+                    </span>
+                </div>
+                <button class="retry" onclick="response_start()">Retry</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span class="f_txt">Speed Typo web page</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
