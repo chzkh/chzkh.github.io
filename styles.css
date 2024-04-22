@@ -11,7 +11,6 @@ body, html {
 section {
     height: 75vh;
     width: 100vw;
-    /* overflow: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,7 +266,6 @@ ul {
 
 .wu_button_hdr {
     font-size: 25px;
-    font-style: bold;
 }
 
 .wu_button_dsc {
